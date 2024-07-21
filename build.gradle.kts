@@ -24,6 +24,9 @@ dependencies {
     runtimeOnly("com.mysql:mysql-connector-j")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    // for validation
+    implementation("org.springframework.boot:spring-boot-starter-validation:3.3.2")
 }
 
 tasks.withType<Test> {
