@@ -27,6 +27,9 @@ dependencies {
 
     // for validation
     implementation("org.springframework.boot:spring-boot-starter-validation:3.3.2")
+
+    //for swagger
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0")
 }
 
 tasks.withType<Test> {
