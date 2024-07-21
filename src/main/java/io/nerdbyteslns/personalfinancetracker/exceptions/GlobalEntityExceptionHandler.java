@@ -1,6 +1,6 @@
 package io.nerdbyteslns.personalfinancetracker.exceptions;
 
-import io.nerdbyteslns.personalfinancetracker.helper.ApiResponseUtil;
+import io.nerdbyteslns.personalfinancetracker.utils.ApiResponseUtil;
 import io.nerdbyteslns.personalfinancetracker.helper.ErrorResponse;
 import io.nerdbyteslns.personalfinancetracker.helper.IApiResponse;
 import org.springframework.http.HttpHeaders;

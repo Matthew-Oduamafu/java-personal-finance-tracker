@@ -1,6 +1,8 @@
-package io.nerdbyteslns.personalfinancetracker.helper;
+package io.nerdbyteslns.personalfinancetracker.utils;
 
 import io.nerdbyteslns.personalfinancetracker.enums.DefaultHttpMessage;
+import io.nerdbyteslns.personalfinancetracker.helper.ApiResponse;
+import io.nerdbyteslns.personalfinancetracker.helper.ErrorResponse;
 import org.springframework.http.HttpStatus;
 
 import java.util.List;

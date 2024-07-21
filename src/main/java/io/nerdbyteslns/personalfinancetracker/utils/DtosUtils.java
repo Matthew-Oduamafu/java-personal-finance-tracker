@@ -1,4 +1,4 @@
-package io.nerdbyteslns.personalfinancetracker.helper;
+package io.nerdbyteslns.personalfinancetracker.utils;
 
 import io.nerdbyteslns.personalfinancetracker.dtos.AppUserResponseDto;
 import io.nerdbyteslns.personalfinancetracker.dtos.CreateAppUserDto;
