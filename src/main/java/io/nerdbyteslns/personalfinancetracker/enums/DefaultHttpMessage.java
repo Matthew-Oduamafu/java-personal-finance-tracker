@@ -1,4 +1,4 @@
-package io.nerdbyteslns.personalfinancetracker.helper;
+package io.nerdbyteslns.personalfinancetracker.enums;
 
 public enum DefaultHttpMessage {
     SUCCESS("Success"),
