@@ -30,6 +30,13 @@ dependencies {
 
     //for swagger
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0")
+//    implementation("io.springfox:springfox-boot-starter:3.0.0")
+
+    // for openapi configs
+    implementation("org.springdoc:springdoc-openapi-ui:1.6.9")
+
+    // for servlet (for openapi configs)
+    implementation("jakarta.servlet:jakarta.servlet-api:4.0.4")
 }
 
 tasks.withType<Test> {
