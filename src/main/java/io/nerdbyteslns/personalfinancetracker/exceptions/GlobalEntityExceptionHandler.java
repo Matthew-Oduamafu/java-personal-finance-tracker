@@ -29,7 +29,6 @@ public class GlobalEntityExceptionHandler extends ResponseEntityExceptionHandler
         return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
     }
 
-
     @ExceptionHandler(Exception.class)
     public final ResponseEntity<IApiResponse<Object>> handleAllException(Exception ex, WebRequest request) throws Exception {
 
