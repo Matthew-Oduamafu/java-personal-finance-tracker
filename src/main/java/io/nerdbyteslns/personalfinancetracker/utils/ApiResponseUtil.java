@@ -11,7 +11,7 @@ public class ApiResponseUtil {
 
 
     public static <T> ApiResponse<T> toOkApiResponse(T data) {
-        return toApiResponse(data, DefaultHttpMessage.ERROR.getMessage(), HttpStatus.OK.value(), null);
+        return toApiResponse(data, DefaultHttpMessage.SUCCESS.getMessage(), HttpStatus.OK.value(), null);
     }
 
     public static <T> ApiResponse<T> toCreatedApiResponse(T data) {
